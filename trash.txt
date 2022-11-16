@@ -1,0 +1,194 @@
+
+get()
+var idade
+var peso
+
+function get()
+{
+     idade = document.querySelector("#idade").value
+     peso = document.querySelector("#peso").value
+
+
+
+
+    if(peso < 9 &&  i == 5)
+    {
+
+       
+
+       alert("seu bixo tem 36 anos de vivencia")
+       
+    
+           
+    }
+
+    else if(peso > 9 && peso < 23.1)
+    {
+        getIdade()
+   
+    }
+
+    else if(peso > 23.1 && peso < 40)
+    { 
+        getIdade()
+  
+    }
+
+    else if(peso > 40)
+    {
+        getIdade()
+      
+    }
+
+    else
+    {
+        alert("digite um opçao válida")
+        get()
+     
+    }
+
+   
+
+}
+
+
+  var i = idade=>
+{
+    switch(i)
+        {
+        case 5:
+          
+            return idade = 5
+            break
+
+            case 6:
+           
+            return idade = 6
+            break
+            
+            case 7:
+                return idade = 7
+                break
+
+        case 8:
+            return idade = 8
+            break
+        case 9:
+            return idade = 9
+            break
+
+            case 10:
+                return idade = 10
+                break
+
+                case 11:
+                    return idade = 11
+                    break
+
+    case 12:
+        return idade = 12
+        break
+
+        case 13:
+            return idade = 13
+            break
+            
+        case 14:
+            return idade = 14
+            break
+
+            case 15:
+                return idade = 15
+                break
+
+                case 16:
+                    return idade = 16
+                    break
+
+                case 17:
+                    return idade = 17
+                    break
+
+                    case 18:
+                        return idade = 18
+                        break
+
+                        case 19:
+                            return idade = 19
+                            break
+
+                            case 20:
+                                return idade = 20
+                                break
+        }
+}
+
+    
+
+    // if(idade == 5 && peso < 9)
+    // {
+    //     alert("seu cachorro tem 36 anos cachorrais")
+    // }
+
+    // else if(idade == 6 && peso > 9.1 && peso < 23)
+    // {
+    //     alert("seu cachorro tem 40 anos cachorrais")
+    // }
+
+    // else if(idade == 7 && peso > 23.1 && peso < 40)
+    // {
+    //     alert("seu cachorro tem 44 anos cachorrais")
+    // }
+
+    // else if(idade == 8 && peso )
+ 
+
+    //     switch (idade)
+    //     {
+    //     case 5:
+    //         break
+
+    //         case 6:
+    //         break
+            
+    //         case 7:
+    //             break
+
+    //     case 8:
+    //         break
+    //     case 9:
+    //         break
+
+    //         case 10:
+    //             break
+
+    //             case 11:
+    //                 break
+
+    // case 12:
+    //     break
+
+    //     case 13:
+    //         break
+            
+    //     case 14:
+    //         break
+
+    //         case 15:
+    //             break
+
+    //             case 16:
+    //                 break
+
+    //             case 17:
+    //                 break
+
+    //                 case 18:
+    //                     break
+
+    //                     case 19:
+    //                         break
+
+    //                         case 20:
+    //                             break
+    //     }
